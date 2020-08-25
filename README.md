@@ -6,6 +6,10 @@ As I mentioned this very basic unsanitized script so don't try to play with it.
 This image helps you to understand how it works.
 
 
+![](/usage.png)
+
+
+
 - First input it takes is whether you want an attachment of any file as shown in image
     > Did you want to send an attachment
     
