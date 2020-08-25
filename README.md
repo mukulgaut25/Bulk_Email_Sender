@@ -30,4 +30,4 @@ Then Accordingly provide the valid email address manually like
 
 **Note: make sure that file and image which you wanna to send is always is at the same location of script to work properly**
 
-> At last if the script executed successfully the you see ***send..***
+> At last if the script executed successfully then you see ***send..***
