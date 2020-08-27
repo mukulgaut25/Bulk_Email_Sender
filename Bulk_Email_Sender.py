@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 import smtplib
 import argparse
 
-# variables
+# declaration
 lst = []
 
 # function
@@ -20,10 +20,10 @@ def sender():
 # argument passing
 my_parser = argparse.ArgumentParser()
 
-my_parser.add_argument("-file", help="Enter the email file name", type=str)
-my_parser.add_argument("--target", help="Specify the targeted email address", type=str)
-my_parser.add_argument("-server", help="Enter smtp server name like smtp.gmail.com", type=str)
-my_parser.add_argument("-sender", help="Specify sender name", default="Bot", type=str)
+my_parser.add_argument("-file", help="Enter the email file name")
+my_parser.add_argument("--target", help="Specify the targeted email address")
+my_parser.add_argument("-server", help="Enter smtp server name like smtp.gmail.com")
+my_parser.add_argument("-sender", help="Specify sender name", default="Bot")
 
 args = my_parser.parse_args()
 
@@ -46,4 +46,4 @@ elif args.target is not None:
     sender()
 
 else:
-    print("please refer help")
+    print("please refer help(-h)")
